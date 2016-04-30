@@ -19,7 +19,7 @@ assert card.is_mod10_valid
 
 # The card is a visa
 assert card.brand == 'diners_club'
-assert card.friendly_brand == 'Diners_club'
+assert card.friendly_brand == 'Diners Club'
 #assert card.mask == 'XXXX-XXXXXX-XXXX'
 
 # The card is a known test card

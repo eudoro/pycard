@@ -33,9 +33,9 @@ class Card(object):
         BRAND_MASTERCARD: 'MasterCard',
         BRAND_AMEX: 'American Express',
         BRAND_DISCOVER: 'Discover',
-        BRAND_DINERS_CLUB: 'Diners_club',
-        BRAND_JCB_1: 'JCB_1',
-        BRAND_JCB_2: 'JCB_2',
+        BRAND_DINERS_CLUB: 'Diners Club',
+        BRAND_JCB_1: 'JCB',
+        BRAND_JCB_2: 'JCB',
     }
 
     # Common test credit cards
