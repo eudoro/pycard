@@ -15,6 +15,7 @@ class Card(object):
     BRAND_MASTERCARD = 'mastercard'
     BRAND_AMEX = 'amex'
     BRAND_DISCOVER = 'discover'
+    BRAND_DISCOVER_2 = 'discover_2'
     BRAND_DINERS_CLUB = 'diners_club'
     BRAND_JCB_1 = 'jcb_1'
     BRAND_JCB_2 = 'jcb_2'
@@ -24,6 +25,7 @@ class Card(object):
         BRAND_MASTERCARD: re.compile(r'^(5[1-5]\d{4}|677189)\d{10}$'),
         BRAND_AMEX: re.compile(r'^3[47]\d{13}$'),
         BRAND_DISCOVER: re.compile(r'^(6011|65\d{2})\d{12}$'),
+        BRAND_DISCOVER_2: re.compile(r'^622(1(2[6-9]|[3-9]\d)\d{2}|[2-8]\d{4}|9([0-1]\d{3}|2[0-5]\d{2}))\d{8}$'),
         BRAND_DINERS_CLUB: re.compile(r'^3(0|6|8)\d{12}$'),
         BRAND_JCB_1: re.compile(r'^35(2[8-9]|[3-8]\d)\d{12}$'),
         BRAND_JCB_2: re.compile(r'^(3088|3096|3112|3158|3337)\d{12}$'),
@@ -33,6 +35,7 @@ class Card(object):
         BRAND_MASTERCARD: 'MasterCard',
         BRAND_AMEX: 'American Express',
         BRAND_DISCOVER: 'Discover',
+        BRAND_DISCOVER_2: 'Discover',
         BRAND_DINERS_CLUB: 'Diners Club',
         BRAND_JCB_1: 'JCB',
         BRAND_JCB_2: 'JCB',
